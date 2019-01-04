@@ -1,0 +1,12 @@
+.portrait
+{
+	border-radius: 500px;
+	overflow: hidden;
+	width: 320px;
+	height: 320px;
+	text-align: center;
+    margin-left: 37%;
+    padding-bottom:10px;
+    padding-right:15px;
+
+}

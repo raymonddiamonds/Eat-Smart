@@ -1,0 +1,35 @@
+.recipe-container {
+	white-space: nowrap;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+
+.picture, .content {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.picture {
+	margin-right: 10px;
+	max-width: 20%;
+
+}
+
+.content {
+	width: 60%;
+}
+
+.recipe-button {
+	background-color: #9DB5B2;
+    border: none;
+    border-radius: 20px;
+    padding:20px;
+    margin:0px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.recipe-button:hover
+{
+	color:white;
+}

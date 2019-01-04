@@ -1,0 +1,502 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"line",
+				"lineTo"
+			],
+			[
+				"to",
+				"toRadians"
+			],
+			[
+				"togg",
+				"toggle-pictures"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"inlin",
+				"inline\tdisplay"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"column",
+				"columnRight"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"my",
+				"myBlog"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground"
+			],
+			[
+				"num",
+				"numResource"
+			],
+			[
+				"pro",
+				"numProcess"
+			],
+			[
+				"lo",
+				"lower"
+			],
+			[
+				"upp",
+				"upper"
+			],
+			[
+				"LO",
+				"LOW"
+			],
+			[
+				"low",
+				"lower"
+			],
+			[
+				"lower",
+				"lowerCount-1"
+			],
+			[
+				"new",
+				"newRequest"
+			],
+			[
+				"up",
+				"upperCount"
+			],
+			[
+				"dis",
+				"distances"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"sender",
+				"senderID"
+			],
+			[
+				"send",
+				"sender"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"process",
+				"processPostback"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"messa",
+				"messaging"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"da",
+				"day"
+			],
+			[
+				"midd",
+				"middleInitial"
+			],
+			[
+				"a",
+				"age"
+			],
+			[
+				"p",
+				"printf\tprintf …"
+			],
+			[
+				"pos",
+				"posInt"
+			],
+			[
+				"rec",
+				"record"
+			],
+			[
+				"rc",
+				"record"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"rep",
+				"replacementName"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"req",
+				"require"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"materi",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"material",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/raymonddiamonds/dev/ML/my-app/src/App.js",
+		"/Users/raymonddiamonds/dev/ML/ml.py",
+		"/Users/raymonddiamonds/dev/Comp307/mini3_solution_1/main.css",
+		"/Users/raymonddiamonds/dev/Comp307/mini3_solution_1/index.html",
+		"/Users/raymonddiamonds/dev/diamondsbot/index.js",
+		"/Users/raymonddiamonds/dev/Rando/materialshell-oceanic.terminal",
+		"/Users/raymonddiamonds/eclipse-workspace/Mini1/src/TestRunner.java",
+		"/Users/raymonddiamonds/eclipse-workspace/Mini1/src/MapTest.java",
+		"/Users/raymonddiamonds/eclipse-workspace/Mini1/src/MapMain.java",
+		"/Users/raymonddiamonds/eclipse-workspace/Mini1/src/Map.java",
+		"/Users/raymonddiamonds/java/TestRunner.java",
+		"/Users/raymonddiamonds/java/TestJunit.java",
+		"/Users/raymonddiamonds/java/TestBasic.java",
+		"/Users/raymonddiamonds/dev/Comp307/mini3_solution_1/script.js",
+		"/Users/raymonddiamonds/dev/Comp307/Test/test.html",
+		"/Users/raymonddiamonds/dev/Comp307/Test/style.css",
+		"/Users/raymonddiamonds/dev/Comp307/Test/index.html",
+		"/Users/raymonddiamonds/Downloads/Solution 2/MapMain.java",
+		"/Users/raymonddiamonds/dev/Personal Website/NewSite/index.html",
+		"/Users/raymonddiamonds/dev/Personal Website/NewSite/index.sublime-workspace",
+		"/Users/raymonddiamonds/dev/Personal Website/PersonalWebsite/raymonddiamonds.github.io/index.html",
+		"/Users/raymonddiamonds/dev/Personal Website/PersonalWebsite/raymonddiamonds.github.io/style.css",
+		"/Users/raymonddiamonds/dev/comp310/a3/resource_request_simulator.c",
+		"/Users/raymonddiamonds/dev/comp310/a3/part2_skeleton.c",
+		"/Users/raymonddiamonds/Downloads/LinkedList_Exercises (1)/SLinkedList.java",
+		"/Users/raymonddiamonds/Downloads/A4 (3)/MyHashTable.java",
+		"/Users/raymonddiamonds/dev/chatbot/DiamondsBot/index.js",
+		"/Users/raymonddiamonds/Downloads/air_taxi_sim_skeleton.c",
+		"/Users/raymonddiamonds/dev/chatbot/DiamondsBot/models/movie.js",
+		"/Users/raymonddiamonds/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/E3BF69B2-60AA-461D-AB69-5A4BEEBA398F/MountainsProgram.java",
+		"/Users/raymonddiamonds/Downloads/Archive (5)/Circle.java",
+		"/Users/raymonddiamonds/dev/Personal Website/PersonalWebsite/style.css",
+		"/Users/raymonddiamonds/dev/chatbot/DiamondsBot/messages.js",
+		"/Users/raymonddiamonds/antigen.zsh",
+		"/Users/raymonddiamonds/Downloads/materialsthemeoceanic.terminal",
+		"/Users/raymonddiamonds/dev/comp310/a1/a1_command_piping.c",
+		"/Users/raymonddiamonds/Downloads/310simpleShell.c",
+		"/Users/raymonddiamonds/Downloads/as1p2_skeleton.c",
+		"/Users/raymonddiamonds/dev/Personal Website/PersonalWebsite/index.html",
+		"/Users/raymonddiamonds/dev/Personal Website/PersonalWebsite/test.html",
+		"/Users/raymonddiamonds/dev/Comp206/Assign5/main.c",
+		"/Users/raymonddiamonds/dev/Comp206/Assignment6/consumer.c",
+		"/Users/raymonddiamonds/dev/Comp206/Assignment6/producer.c",
+		"/Users/raymonddiamonds/dev/Comp206/Assignment6/main.c",
+		"/Users/raymonddiamonds/dev/Comp206/Assign4/Comp206MiniAssign4/Comp206MiniAssign4/main.c",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment4/Replace.c",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment5/list.h",
+		"/Users/raymonddiamonds/dev/Comp206/Assign5/list.h",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment5/list.c",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment5/main.c",
+		"/Users/raymonddiamonds/dev/Comp206/Assign5/list.c",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment6/Consumer.c",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment6/Producer.c",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment6/ProducerConsumer.h",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment6/Main.c",
+		"/Users/raymonddiamonds/dev/Comp206/Final Practice/Test.sh",
+		"/Users/raymonddiamonds/Downloads/COMPAssingmentSolutions/Assingment3/Crypto.c",
+		"/Users/raymonddiamonds/dev/Comp206/Final Practice/HelloWorld.c",
+		"/Users/raymonddiamonds/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/raymonddiamonds/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/raymonddiamonds/Downloads/Assignment6/mydata.txt",
+		"/Users/raymonddiamonds/Downloads/Assignment6/main.c",
+		"/Users/raymonddiamonds/Downloads/Assignment6/producer.c",
+		"/Users/raymonddiamonds/Downloads/Assignment6/consumer.c",
+		"/Users/raymonddiamonds/dev/Comp206/COMP206MiniAssign3/COMP206MiniAssign3/main.c",
+		"/Users/raymonddiamonds/dev/Practice Code/Pointers.c",
+		"/Users/raymonddiamonds/dev/chatbot/DiamondsBot/package.json",
+		"/Users/raymonddiamonds/dev/gif-search/package.json",
+		"/Users/raymonddiamonds/dev/app.js",
+		"/Users/raymonddiamonds/Raymond's Documents/chatbot/DiamondsBot/index.js",
+		"/Users/raymonddiamonds/Raymond's Documents/Make School/Cup'NSpoon/Cup-n-Spoon/CupNSpoon/Podfile",
+		"/Users/raymonddiamonds/Documents/testsite.html",
+		"/Users/chatbot/package.json",
+		"/Users/raymonddiamonds/Raymond's Documents/untitled.html",
+		"/Users/raymonddiamonds/Raymond's Documents/webserver1.py",
+		"/webserver1.py",
+		"/Users/chatbot/index.js",
+		"/Users/chatbot/Procfile"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

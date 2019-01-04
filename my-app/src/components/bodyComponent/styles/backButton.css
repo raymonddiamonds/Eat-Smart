@@ -1,0 +1,27 @@
+.backButton {
+  display: inline-block;
+  color: white;
+  height: 10%;
+  width: 100px;
+  float:left;
+}
+
+.button2 {
+	font-size:15px;
+	margin-top:10px;
+	top:50%;
+	text-decoration: none;
+ 	border-color: transparent;
+	border-radius: 10px;
+}
+
+.anchor2
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.anchor2:hover
+{
+	color: purple;
+}

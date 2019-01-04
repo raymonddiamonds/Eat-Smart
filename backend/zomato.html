@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+</head>
+<body>
+	<input id="city">Your City</input>
+	<button onclick="getLocation()">Submit</button>
+
+	<p><button onclick="geoFindMe()">Show my location</button></p>
+	<div id="out"></div>
+
+	<script>
+		// function getEatStRestaurants(lat, long){
+		// 	//https://developers.eatstreet.com/endpoint/search
+		// 	//90fd4587554469b1f15b4f2e73e761809f4b4bcca52eedca
+
+		// 	var request = new XMLHttpRequest();
+
+
+		// 	console.log(String($("#city").val()));
+		// 	// Open a new connection, using the GET request on the URL endpoint
+		// 	request.open('GET', 'https://api.eatstreet.com/publicapi/v1/restaurant/search?latitude='+lat+'&longitude='+long+'&method=both&pickup-radius=2', true);
+		// 	request.setRequestHeader("X-Access-Token","55919a441031ca24" );
+		// 	// request.setRequestHeader("lat",lat);
+		// 	// request.setRequestHeader("lon",long);
+		// 	// request.setRequestHeader("radius",3000);
+
+
+		// 	request.onload = function () {
+		// 		// Begin accessing JSON data here
+		// 		var rest_keys = [];
+		// 		var data = JSON.parse(this.response);
+		// 		console.log(this.response);
+		// 		//visualize response in console
+		// 		//check if success
+		// 		if (request.status >= 200 && request.status < 400) {
+		// 			console.log("success");
+		// 			if(data.restaurants.length<0){
+		// 				console.log("no restaurants nearby/found");
+		// 			}
+					
+
+		// 			for (var i = 0; i < data.restaurants.length; i++) { 
+		// 			    console.log(data.restaurants[i].name);
+		// 			    rest_keys.push(data.restaurants[i].apiKey)
+		// 			}
+		// 		}
+		// 		else {
+		// 			console.log("FAILED");
+		// 		}
+		// 	}
+
+		// 	// Send request
+		// 	request.send();
+
+		// 	var request2 = new XMLHttpRequest();
+		// 	request2.open('GET', 'https://developers.eatstreet.com/endpoint/restaurant-menu, true)',true)
+		// 	request2.setRequestHeader("X-Access-Token",'55919a441031ca24');
+		// 	request2.setRequestHeader("apiKey","409b7c6b66fccf729931efcaf79ea497" );
+
+		// 	//https://developers.eatstreet.com/endpoint/restaurant-menu
+		// }
+		function getLocationGeo(lat,long){
+			// Uses Zomato API to find restaurants based on location.
+
+			// Create a request variable and assign a new XMLHttpRequest object to it.
+			var request = new XMLHttpRequest();
+			// Open a new connection, using the GET request on the URL endpoint
+			request.open('GET', 'https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+long+'&radius='+'500', true);
+			request.setRequestHeader("user-key","409b7c6b66fccf729931efcaf79ea497" );
+
+			request.onload = function () {
+				// Begin accessing JSON data here
+				var data = JSON.parse(this.response);
+				console.log(this.response);
+				//visualize response in console
+				//check if success
+				if (request.status >= 200 && request.status < 400) {
+					if(data.restaurants.length<0){
+						console.log("no restaurants nearby/found");
+					}
+					console.log("success");
+
+					//loops through all 20 nearby restaurants idicated by the radius
+					for (var i = 0; i < data.restaurants.length; i++) { 
+						var cur_rest = data.restaurants[i].restaurant;
+					    console.log(cur_rest.name);
+					    console.log('\t'+"Cost for 1 person: "+cur_rest.average_cost_for_two);
+					    console.log('\t'+"Coordinates (lat/lon): "+cur_rest.location.latitude+" ,"+cur_rest.location.longitude);
+					}
+				}
+				else {
+					console.log("FAILED");
+				}
+			}
+
+			// Send request
+			request.send();
+		}
+    	function getLocation(){
+    		// Create a request variable and assign a new XMLHttpRequest object to it.
+			var request = new XMLHttpRequest();
+
+
+			console.log(String($("#city").val()));
+			// Open a new connection, using the GET request on the URL endpoint
+			request.open('GET', 'https://developers.zomato.com/api/v2.1/locations?query='+String($("#city").val()), true);
+			// request.setRequestHeader("query",String($("#city").val()));
+			request.setRequestHeader("user-key","409b7c6b66fccf729931efcaf79ea497" );
+
+		
+			var city_id;
+
+			request.onload = function () {
+				// Begin accessing JSON data here
+				var data = JSON.parse(this.response);
+				//visualize response in console
+				console.log(this.response);
+				//check if success
+				if (request.status >= 200 && request.status < 400) {
+				if(data.location_suggestions.length<0){
+					console.log("no such place exists");
+				}
+					console.log("success");
+					city_id = data.location_suggestions[0].city_id;
+					console.log(city_id);
+
+					getRestaurants(city_id);
+				}
+				else {
+					console.log("FAILED");
+				}
+			}
+
+			// Send request
+			request.send();
+		}
+
+		function getRestaurants(id)
+		{
+			// Create a request variable and assign a new XMLHttpRequest object to it.
+			var request = new XMLHttpRequest();
+
+			console.log(String($("#city").val()));
+			// Open a new connection, using the GET request on the URL endpoint
+			request.open('GET', 'https://developers.zomato.com/api/v2.1/search?entity_id='+id+"&entity_type=city&radius=10000", true);
+			request.setRequestHeader("user-key","409b7c6b66fccf729931efcaf79ea497" );//auth key
+
+			request.onload = function () {
+				// Begin accessing JSON data here
+				var data = JSON.parse(this.response);
+				console.log(this.response);
+				//visualize response in console
+				//check if success
+				if (request.status >= 200 && request.status < 400) {
+					if(data.restaurants.length<0){
+						console.log("no restaurants nearby/found");
+					}
+					console.log("success");
+
+					//for (var i = 0; )
+
+					for (var i = 0; i < data.restaurants.length; i++) { 
+					    console.log(data.restaurants[i].restaurant.name);
+					    console.log('\t'+"Cost for 1 person: "+data.restaurants[i].average_cost_for_two);
+					}
+
+					// data.restaurants.forEach(restaurant => {
+				 //     console.log(restaurant.name);
+				 //   });
+				}
+				else {
+					console.log("FAILED");
+				}
+			}
+
+			// Send request
+			request.send();
+		}	
+
+		function geoFindMe() {
+		  var output = document.getElementById("out");
+
+		  if (!navigator.geolocation){
+		    output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
+		    return;
+		  }
+
+		  function success(position) {
+		    var latitude  = position.coords.latitude;
+		    var longitude = position.coords.longitude;
+
+		    output.innerHTML = '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
+
+		    // var img = new Image();
+		    // img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&zoom=13&size=300x300&sensor=false";
+
+		    // output.appendChild(img);
+
+		    getLocationGeo(latitude,longitude);
+
+		   // getEatStRestaurants(latitude,longitude);
+		  }
+
+		  function error() {
+		    output.innerHTML = "Unable to retrieve your location";
+		  }
+
+		  output.innerHTML = "<p>Locating…</p>";
+
+		  navigator.geolocation.getCurrentPosition(success, error);
+		}
+	</script>
+</body>
+</html>

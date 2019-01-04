@@ -1,0 +1,125 @@
+.titleTxt
+{
+	color:black;
+	font-size:25px;
+}
+
+.eat-in {
+
+	background-color: black;
+	color: white;
+	display: inline-block;
+	width: 100%;
+    height:100%;
+	
+}
+
+.form {
+	border: none;
+	border-radius: 25px;
+    border-color: transparent;
+    display: inline-block;	
+    background: #C7DBD9;
+}
+
+.main {
+	background-color: red;
+}
+
+.main-bar, .side-bar {
+	position: relative;
+	float: left;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    display: inline-block;
+    border: none;
+    background: #CCC;
+    text-align: center;
+}
+
+.main-bar {
+    width: 75%;
+    height: 100vh;
+    background-color: #C7DBD9;
+    
+
+}
+
+.new-ingredient {
+	width: 90%;
+	height: 15%;
+	text-align: center;
+}
+
+.p {
+	text-align: center;
+}
+
+.pantry, .new-ingredient {
+	overflow: auto;
+	display: inline-block;
+	border: 1px solid #C7DBD9;
+	border-radius: 25px;	
+	width: 85%;
+	height: 65%;
+	background-color: #C7DBD9;
+	text-align: left;
+
+}
+
+.pantry, .new-ingredient >p{
+	padding-left: 20px;
+}
+
+.recipes {
+	overflow: auto;
+	display: inline-block;
+	width: 85%;
+	height:550px;
+	background-color: #9DB5B2; 
+	border: 1px solid #C7DBD9;
+	border-radius: 25px;	
+}
+
+.side-bar {
+    width: 25%;
+    height: 100vh;
+    background-color: #9DB5B2;
+}
+
+
+#save {
+	font-size: 20px;
+	border-radius: 25px;
+	border: none;
+	margin-top: 25px;
+}
+
+#ingredient {
+	border-width: 0px 0px 1px 0px;
+	border-color: transparent;
+	width: 60%;
+	background: #C7DBD9;
+	border-radius: 25px;
+	padding-left:10px;
+	height:15px;
+
+}
+
+#submit{
+	width: 20%;
+	border-color: transparent;
+	border-radius: 25px;
+	margin-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.but
+{
+	padding: 5px;
+	font-size:15px;
+}

@@ -1,0 +1,52 @@
+.Box {
+  text-align: center;
+
+  display: inline-block;
+  color: grey;
+  background-color: #484B63;
+  height: 50vh;
+  width: 50%;
+
+}
+
+.button {
+	position: relative;
+  font-size: 40px;
+	top:50%;
+  padding: 15px;
+  border-radius: 20px;
+  font-style: Candara;
+  background: #8A7B86;
+}
+ 
+/*.Box {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #484B63;
+  height: 50vh;
+  width: 50%;
+}
+
+.button {
+  padding: 10px;
+
+	position: relative;
+	top:50%;
+	text-decoration: none;
+ 	border-color: transparent;
+	border-radius: 20px;
+	font-size:20px;
+	font-color:black;
+}*/
+
+.anchor
+{
+	color: white;
+	text-decoration: none;
+}
+
+.anchor:hover
+{
+	color: black;
+} 

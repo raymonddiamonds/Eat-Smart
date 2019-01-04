@@ -1,0 +1,17 @@
+{ "pantryitems":[
+    {
+        "_id": "5bfb75074fd8e1542086ca6d",
+        "name": "sugar",
+        "quantity": 1
+    },
+    {
+        "_id": "5bfb75144fd8e1542086ca6e",
+        "name": "butter",
+        "quantity": 1
+    },
+    {
+        "_id": "5bfb75264fd8e1542086ca6f",
+        "name": "cinnamon",
+        "quantity": 1
+    }
+]}
