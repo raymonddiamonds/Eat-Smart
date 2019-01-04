@@ -18,7 +18,7 @@ npm install
 
 To start the backend:
 
-Navigate to ./backend/my-app/
+Navigate to ```./backend/my-app/```:
 ```
 mongod --dbpath db
 ```
@@ -29,7 +29,7 @@ npm start
 
 To start the client-side:
 
-Navigate to ./my-app/:
+Navigate to ```./my-app/```:
 ```
 npm start
 ```
@@ -38,26 +38,33 @@ The app will be hosted locally at: ```http://localhost:3000/```
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+MERN Stack:
+* [MongoDB](https://www.mongodb.com/) - NoSQL Database
+* [Express](https://expressjs.com/) - Web framework for Node.js 
+* [React](https://reactjs.org/) - Javascript library to build the client side
+* [Node](https://nodejs.org/en/) - Javascript environment outside of a browser
+
+MongoDB:
+* [Mongoose](https://mongoosejs.com/docs/) - MongoDB object modelling for Node
+* [Mongod](https://docs.mongodb.com/manual/reference/program/mongod/) - Daemon process 
+
+Express:
+* [Body Parser](https://www.npmjs.com/package/body-parser) - Parsing middleware
+
+React:
+* [React Router](https://github.com/ReactTraining/react-router) - Library to create routing 
+* [Google Maps React](https://www.npmjs.com/package/google-maps-react) - Google Map React Component
 
 ## Contributing
 
-
-
-## Versioning
-
-
-
-## Authors
+Project was built by Raymond Diamonds, Anthony Cui, Fred Lepage and Andy Jiang
 
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+
 
 
 
