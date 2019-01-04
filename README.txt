@@ -29,7 +29,7 @@ Ensure MongoDB and NPM is already installed. In terminal, navigate to ./backend/
 
 ```
 npm install 
-```
+``` 
 
 ## Running 
 
