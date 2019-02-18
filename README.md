@@ -1,6 +1,6 @@
 # Eat Smart
 
-Eat Smart is designed to give you the ability to solve one of mankind's greatest problems: eating. We often find ourselves deciding to choose between making food at home or eating food at a restaurant. Eat Smart will intelligently find recipes using ingredients you already have in the fridge. It can also find nearby restaurants using a specific budget in mind. Whether you choose to Eat In or Eat Out, Eat Smart will help you every step of the way so that food appears in front of you. Bon appetite!
+* [Eat Smart](https://smeart.herokuapp.com/) is designed to give you the ability to solve one of mankind's greatest problems: eating. We often find ourselves deciding to choose between making food at home or eating food at a restaurant. Eat Smart will intelligently find recipes using ingredients you already have in the fridge. It can also find nearby restaurants using a specific budget in mind. Whether you choose to Eat In or Eat Out, Eat Smart will help you every step of the way so that food appears in front of you. Bon appetite!
 
 ## Getting Started
 
