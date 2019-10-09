@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
-import './styles/eatIn.css';
+import React,{Component}from'react';import'./styles/eatIn.css';
 
 //Components
-import Header from '../components/headerComponent/header';
-import Pantry from '../components/bodyComponent/pantry';
-import Recipe from '../components/bodyComponent/recipe';
-import BackButton from '../components/bodyComponent/backButton';
+import Header from'../components/headerComponent/header';
+import Pantry from'../components/bodyComponent/pantry';
+import Recipe from'../components/bodyComponent/recipe';
+import BackButton from'../components/bodyComponent/backButton';
 
-import { BrowserRouter as Router,Redirect,Route,Link,withRouter } from "react-router-dom";
+import{BrowserRouter as Router,Redirect,Route,Link,withRouter}from"react-router-dom";
 
 class EatIn extends Component {
 
@@ -164,6 +163,5 @@ class EatIn extends Component {
     );
   }
 }
-
 
 export default EatIn;
